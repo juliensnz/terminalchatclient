@@ -272,16 +272,16 @@
 	};
 	F9E11DBB10A34BD40084E6B6 /* analyse.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {910, 442}}";
-			sepNavSelRange = "{175, 50}";
-			sepNavVisRange = "{28, 346}";
+			sepNavIntBoundsRect = "{{0, 0}, {910, 520}}";
+			sepNavSelRange = "{288, 0}";
+			sepNavVisRange = "{161, 318}";
 		};
 	};
 	F9E11DBC10A34BD40084E6B6 /* analyse.c */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {910, 468}}";
-			sepNavSelRange = "{590, 0}";
-			sepNavVisRange = "{0, 511}";
+			sepNavIntBoundsRect = "{{0, 0}, {910, 559}}";
+			sepNavSelRange = "{632, 0}";
+			sepNavVisRange = "{222, 410}";
 		};
 	};
 }
