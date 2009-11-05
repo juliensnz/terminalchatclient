@@ -4,6 +4,9 @@
 		activeBuildConfigurationName = Debug;
 		activeExecutable = F970D0471099FAD3007846E4 /* client */;
 		activeTarget = 8DD76FA90486AB0100D96B5E /* client */;
+		addToTargets = (
+			8DD76FA90486AB0100D96B5E /* client */,
+		);
 		codeSenseManager = F970D0511099FADA007846E4 /* Code sense */;
 		executables = (
 			F970D0471099FAD3007846E4 /* client */,
@@ -55,14 +58,13 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 278677818;
-			PBXWorkspaceStateSaveDate = 278677818;
+			PBXPerProjectTemplateStateSaveDate = 279124168;
+			PBXWorkspaceStateSaveDate = 279124168;
 		};
 		perUserProjectItems = {
-			F970D05A1099FCEB007846E4 = F970D05A1099FCEB007846E4 /* PBXBookmark */;
-			F970D05B1099FCEB007846E4 = F970D05B1099FCEB007846E4 /* PBXTextBookmark */;
-			F970D05E109A01E1007846E4 = F970D05E109A01E1007846E4 /* PBXTextBookmark */;
-			F970D05F109A0201007846E4 = F970D05F109A0201007846E4 /* PBXTextBookmark */;
+			F94FAF52109C4DB700E603EF = F94FAF52109C4DB700E603EF /* PBXTextBookmark */;
+			F94FAF53109C4DB700E603EF = F94FAF53109C4DB700E603EF /* PBXTextBookmark */;
+			F9D3907310A318CB007C9A51 /* PBXTextBookmark */ = F9D3907310A318CB007C9A51 /* PBXTextBookmark */;
 		};
 		sourceControlManager = F970D0501099FADA007846E4 /* Source Control */;
 		userBuildSettings = {
@@ -70,9 +72,9 @@
 	};
 	08FB7796FE84155DC02AAC07 /* main.c */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {519, 237}}";
-			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 137}";
+			sepNavIntBoundsRect = "{{0, 0}, {519, 228}}";
+			sepNavSelRange = "{70, 0}";
+			sepNavVisRange = "{0, 87}";
 			sepNavWindowFrame = "{{15, 69}, {608, 704}}";
 		};
 	};
@@ -81,6 +83,26 @@
 		executables = (
 			F970D0471099FAD3007846E4 /* client */,
 		);
+	};
+	F94FAF52109C4DB700E603EF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
+		name = "main.c: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 87;
+		vrLoc = 0;
+	};
+	F94FAF53109C4DB700E603EF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
+		name = "main.c: 6";
+		rLen = 0;
+		rLoc = 70;
+		rType = 0;
+		vrLen = 87;
+		vrLoc = 0;
 	};
 	F970D0471099FAD3007846E4 /* client */ = {
 		isa = PBXExecutable;
@@ -123,38 +145,14 @@
 		isa = PBXCodeSenseManager;
 		indexTemplatePath = "";
 	};
-	F970D05A1099FCEB007846E4 /* PBXBookmark */ = {
-		isa = PBXBookmark;
-		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
-	};
-	F970D05B1099FCEB007846E4 /* PBXTextBookmark */ = {
+	F9D3907310A318CB007C9A51 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
-		name = "main.c: 1";
+		name = "main.c: 6";
 		rLen = 0;
-		rLoc = 0;
+		rLoc = 70;
 		rType = 0;
-		vrLen = 137;
-		vrLoc = 0;
-	};
-	F970D05E109A01E1007846E4 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
-		name = "main.c: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 137;
-		vrLoc = 0;
-	};
-	F970D05F109A0201007846E4 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
-		name = "main.c: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 137;
+		vrLen = 87;
 		vrLoc = 0;
 	};
 }
