@@ -155,4 +155,18 @@
 		vrLen = 87;
 		vrLoc = 0;
 	};
+	F9D3907910A3192E007C9A51 /* communication.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {519, 228}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 147}";
+		};
+	};
+	F9D3907A10A3192E007C9A51 /* communication.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {519, 228}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 175}";
+		};
+	};
 }
