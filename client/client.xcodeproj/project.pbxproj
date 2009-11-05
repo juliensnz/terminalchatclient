@@ -11,6 +11,7 @@
 		8DD76FB00486AB0100D96B5E /* client.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = C6A0FF2C0290799A04C91782 /* client.1 */; };
 		F9D3907B10A3192E007C9A51 /* communication.c in Sources */ = {isa = PBXBuildFile; fileRef = F9D3907A10A3192E007C9A51 /* communication.c */; };
 		F9E11DBD10A34BD40084E6B6 /* analyse.c in Sources */ = {isa = PBXBuildFile; fileRef = F9E11DBC10A34BD40084E6B6 /* analyse.c */; };
+		F9E11DC710A34D040084E6B6 /* structures.c in Sources */ = {isa = PBXBuildFile; fileRef = F9E11DC610A34D040084E6B6 /* structures.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,6 +35,8 @@
 		F9D3907A10A3192E007C9A51 /* communication.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = communication.c; sourceTree = "<group>"; };
 		F9E11DBB10A34BD40084E6B6 /* analyse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = analyse.h; sourceTree = "<group>"; };
 		F9E11DBC10A34BD40084E6B6 /* analyse.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = analyse.c; sourceTree = "<group>"; };
+		F9E11DC510A34D040084E6B6 /* structures.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = structures.h; sourceTree = "<group>"; };
+		F9E11DC610A34D040084E6B6 /* structures.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = structures.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +63,8 @@
 		08FB7795FE84155DC02AAC07 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				F9E11DC510A34D040084E6B6 /* structures.h */,
+				F9E11DC610A34D040084E6B6 /* structures.c */,
 				F9E11DBB10A34BD40084E6B6 /* analyse.h */,
 				F9E11DBC10A34BD40084E6B6 /* analyse.c */,
 				F9D3907910A3192E007C9A51 /* communication.h */,
@@ -131,6 +136,7 @@
 				8DD76FAC0486AB0100D96B5E /* main.c in Sources */,
 				F9D3907B10A3192E007C9A51 /* communication.c in Sources */,
 				F9E11DBD10A34BD40084E6B6 /* analyse.c in Sources */,
+				F9E11DC710A34D040084E6B6 /* structures.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

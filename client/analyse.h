@@ -7,3 +7,17 @@
  *
  */
 
+#include <string.h>
+
+
+//inputConnexion :
+
+identifiants* newId();
+
+void inputConnexion(identifiants *id);
+
+//inputChaine :
+
+
+
+//Analyse : 
