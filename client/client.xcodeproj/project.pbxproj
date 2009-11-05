@@ -10,7 +10,7 @@
 		8DD76FAC0486AB0100D96B5E /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 08FB7796FE84155DC02AAC07 /* main.c */; settings = {ATTRIBUTES = (); }; };
 		8DD76FB00486AB0100D96B5E /* client.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = C6A0FF2C0290799A04C91782 /* client.1 */; };
 		F9D3907B10A3192E007C9A51 /* communication.c in Sources */ = {isa = PBXBuildFile; fileRef = F9D3907A10A3192E007C9A51 /* communication.c */; };
-		F9D3908610A31993007C9A51 /* structure.c in Sources */ = {isa = PBXBuildFile; fileRef = F9D3908510A31993007C9A51 /* structure.c */; };
+		F9D3909310A31C88007C9A51 /* connexion.c in Sources */ = {isa = PBXBuildFile; fileRef = F9D3909210A31C88007C9A51 /* connexion.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -32,8 +32,8 @@
 		C6A0FF2C0290799A04C91782 /* client.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = client.1; sourceTree = "<group>"; };
 		F9D3907910A3192E007C9A51 /* communication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = communication.h; sourceTree = "<group>"; };
 		F9D3907A10A3192E007C9A51 /* communication.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = communication.c; sourceTree = "<group>"; };
-		F9D3908410A31993007C9A51 /* structure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = structure.h; sourceTree = "<group>"; };
-		F9D3908510A31993007C9A51 /* structure.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = structure.c; sourceTree = "<group>"; };
+		F9D3909110A31C88007C9A51 /* connexion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = connexion.h; sourceTree = "<group>"; };
+		F9D3909210A31C88007C9A51 /* connexion.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = connexion.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,10 +60,10 @@
 		08FB7795FE84155DC02AAC07 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				F9D3909110A31C88007C9A51 /* connexion.h */,
+				F9D3909210A31C88007C9A51 /* connexion.c */,
 				F9D3907910A3192E007C9A51 /* communication.h */,
 				F9D3907A10A3192E007C9A51 /* communication.c */,
-				F9D3908410A31993007C9A51 /* structure.h */,
-				F9D3908510A31993007C9A51 /* structure.c */,
 				08FB7796FE84155DC02AAC07 /* main.c */,
 			);
 			name = Source;
@@ -130,7 +130,7 @@
 			files = (
 				8DD76FAC0486AB0100D96B5E /* main.c in Sources */,
 				F9D3907B10A3192E007C9A51 /* communication.c in Sources */,
-				F9D3908610A31993007C9A51 /* structure.c in Sources */,
+				F9D3909310A31C88007C9A51 /* connexion.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

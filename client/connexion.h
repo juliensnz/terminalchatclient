@@ -1,5 +1,5 @@
 /*
- *  structure.c
+ *  connexion.h
  *  client
  *
  *  Created by Julien SANCHEZ on 05/11/09.
@@ -7,5 +7,7 @@
  *
  */
 
-#include "structure.h"
-
+deftype struct identifiant{
+	char[10];
+	int;
+}identifiants;

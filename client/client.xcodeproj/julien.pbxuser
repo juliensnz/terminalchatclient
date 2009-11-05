@@ -169,4 +169,18 @@
 			sepNavVisRange = "{0, 175}";
 		};
 	};
+	F9D3909110A31C88007C9A51 /* connexion.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {519, 228}}";
+			sepNavSelRange = "{202, 0}";
+			sepNavVisRange = "{0, 202}";
+		};
+	};
+	F9D3909210A31C88007C9A51 /* connexion.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {519, 228}}";
+			sepNavSelRange = "{167, 0}";
+			sepNavVisRange = "{0, 167}";
+		};
+	};
 }
