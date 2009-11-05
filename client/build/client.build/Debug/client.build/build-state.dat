@@ -97,9 +97,9 @@ t1257431470
 s147
 
 N/Users/julien/projet/Xcode/Univ/L2/S3/Informatique/PeiP/Projet/client/google code Client/connexion.c
-c000000004AF2FD46000000000000026E
-t1257438534
-s622
+c000000004AF2FD5B0000000000000254
+t1257438555
+s596
 i"connexion.h"
 i<stdio.h>
 i<stdlib.h>
