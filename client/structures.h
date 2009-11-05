@@ -15,10 +15,10 @@ struct identifiant
 
 typedef struct identifiant identifiants;
 
-struct transmission 
+struct transmissionIn 
 {
-	char* login;
-	char* mdp;
+	char* message;
+	int type;
 };
 
-typedef struct identifiant identifiants;
+typedef struct transmissionIn transmission;

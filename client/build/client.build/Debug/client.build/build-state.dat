@@ -1,11 +1,12 @@
 Tclient
 v7
 r0
-t279131334.904208
+t279138085.539760
 cCheck dependencies
 cCompileC build/client.build/Debug/client.build/Objects-normal/i386/main.o "/Users/julien/projet/Xcode/Univ/L2/S3/Informatique/PeiP/Projet/client/google code Client/main.c" normal i386 c com.apple.compilers.gcc.4_2
 cCompileC build/client.build/Debug/client.build/Objects-normal/i386/communication.o "/Users/julien/projet/Xcode/Univ/L2/S3/Informatique/PeiP/Projet/client/google code Client/communication.c" normal i386 c com.apple.compilers.gcc.4_2
-cCompileC build/client.build/Debug/client.build/Objects-normal/i386/connexion.o "/Users/julien/projet/Xcode/Univ/L2/S3/Informatique/PeiP/Projet/client/google code Client/connexion.c" normal i386 c com.apple.compilers.gcc.4_2
+cCompileC build/client.build/Debug/client.build/Objects-normal/i386/analyse.o "/Users/julien/projet/Xcode/Univ/L2/S3/Informatique/PeiP/Projet/client/google code Client/analyse.c" normal i386 c com.apple.compilers.gcc.4_2
+cCompileC build/client.build/Debug/client.build/Objects-normal/i386/structures.o "/Users/julien/projet/Xcode/Univ/L2/S3/Informatique/PeiP/Projet/client/google code Client/structures.c" normal i386 c com.apple.compilers.gcc.4_2
 cLd "/Users/julien/projet/Xcode/Univ/L2/S3/Informatique/PeiP/Projet/client/google code Client/build/Debug/client" normal i386
 
 N/Developer/SDKs/MacOSX10.5.sdk
@@ -60,14 +61,34 @@ N/Users/julien/projet/Xcode/Univ/L2/S3/Informatique/PeiP/Projet/client/build/cli
 t2
 s0
 
+N/Users/julien/projet/Xcode/Univ/L2/S3/Informatique/PeiP/Projet/client/google code Client/analyse.c
+c000000004AF317A400000000000001BF
+t1257445284
+s447
+i"analyse.h"
+i<stdio.h>
+i<stdlib.h>
+i<string.h>
+
+N/Users/julien/projet/Xcode/Univ/L2/S3/Informatique/PeiP/Projet/client/google code Client/analyse.h
+c000000004AF317A100000000000000FC
+t1257445281
+s252
+i<string.h>
+i"structures.h"
+
 N/Users/julien/projet/Xcode/Univ/L2/S3/Informatique/PeiP/Projet/client/google code Client/build/Debug/client
-t1257438534
-s9832
+t1257445285
+s10136
+
+N/Users/julien/projet/Xcode/Univ/L2/S3/Informatique/PeiP/Projet/client/google code Client/build/client.build/Debug/client.build/Objects-normal/i386/analyse.o
+t1257445284
+s2956
 
 N/Users/julien/projet/Xcode/Univ/L2/S3/Informatique/PeiP/Projet/client/google code Client/build/client.build/Debug/client.build/Objects-normal/i386/client.LinkFileList
-c000000004AF2E71400000000000001DC
-t1257432852
-s476
+c000000004AF31683000000000000027A
+t1257444995
+s634
 
 N/Users/julien/projet/Xcode/Univ/L2/S3/Informatique/PeiP/Projet/client/google code Client/build/client.build/Debug/client.build/Objects-normal/i386/communication.o
 t1257432852
@@ -78,12 +99,16 @@ t1257438534
 s3372
 
 N/Users/julien/projet/Xcode/Univ/L2/S3/Informatique/PeiP/Projet/client/google code Client/build/client.build/Debug/client.build/Objects-normal/i386/main.o
-t1257436403
+t1257445154
 s2380
 
 N/Users/julien/projet/Xcode/Univ/L2/S3/Informatique/PeiP/Projet/client/google code Client/build/client.build/Debug/client.build/Objects-normal/i386/structure.o
 t2
 s0
+
+N/Users/julien/projet/Xcode/Univ/L2/S3/Informatique/PeiP/Projet/client/google code Client/build/client.build/Debug/client.build/Objects-normal/i386/structures.o
+t1257445227
+s2112
 
 N/Users/julien/projet/Xcode/Univ/L2/S3/Informatique/PeiP/Projet/client/google code Client/communication.c
 c000000004AF2E1AE00000000000000AF
@@ -109,11 +134,12 @@ N/Users/julien/projet/Xcode/Univ/L2/S3/Informatique/PeiP/Projet/client/google co
 c000000004AF2F4F20000000000000140
 t1257436402
 s320
+i<string.h>
 
 N/Users/julien/projet/Xcode/Univ/L2/S3/Informatique/PeiP/Projet/client/google code Client/main.c
-c000000004AF2F02B00000000000000A4
-t1257435179
-s164
+c000000004AF3172200000000000000A7
+t1257445154
+s167
 i<stdio.h>
 i"connexion.h"
 
@@ -128,6 +154,17 @@ c000000004AF2E4E500000000000000E1
 t1257432293
 s225
 
+N/Users/julien/projet/Xcode/Univ/L2/S3/Informatique/PeiP/Projet/client/google code Client/structures.c
+c000000004AF317180000000000000129
+t1257445144
+s297
+i"structures.h"
+
+N/Users/julien/projet/Xcode/Univ/L2/S3/Informatique/PeiP/Projet/client/google code Client/structures.h
+c000000004AF3176A0000000000000151
+t1257445226
+s337
+
 N/Users/julien/projet/Xcode/Univ/L2/S3/Informatique/PeiP/Projet/client/main.c
 c000000004AE9C3520000000000000089
 t1256833874
@@ -136,7 +173,20 @@ i<stdio.h>
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies279131334#279131334#0(0"0(0#1#0"4300882208#0"0#
+lSLF07#2@18"Check dependencies279138085#279138085#0(0"0(0#1#0"4300882208#0"0#
+
+CCompileC build/client.build/Debug/client.build/Objects-normal/i386/analyse.o "/Users/julien/projet/Xcode/Univ/L2/S3/Informatique/PeiP/Projet/client/google code Client/analyse.c" normal i386 c com.apple.compilers.gcc.4_2
+s279138085.109639
+e279138085.110823
+r1
+xCompileC
+xbuild/client.build/Debug/client.build/Objects-normal/i386/analyse.o
+x/Users/julien/projet/Xcode/Univ/L2/S3/Informatique/PeiP/Projet/client/google code Client/analyse.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@106"Compile /Users/julien/projet/Xcode/Univ/L2/S3/Informatique/PeiP/Projet/client/google code Client/analyse.c279138085#279138085#0(502"/Users/julien/projet/Xcode/Univ/L2/S3/Informatique/PeiP/Projet/client/google code Client/analyse.c: In function 'inputConnexion':/Users/julien/projet/Xcode/Univ/L2/S3/Informatique/PeiP/Projet/client/google code Client/analyse.c:24: warning: format '%s' expects type 'char *', but argument 2 has type 'char (*)[20]'/Users/julien/projet/Xcode/Univ/L2/S3/Informatique/PeiP/Projet/client/google code Client/analyse.c:26: warning: format '%s' expects type 'char *', but argument 2 has type 'char (*)[20]'2(22@73"Format '%s' expects type 'char *', but argument 2 has type 'char (*)[20]'279138085#130#186#0(6@98"/Users/julien/projet/Xcode/Univ/L2/S3/Informatique/PeiP/Projet/client/google code Client/analyse.c279138084#24#0#24#0#56"format '*' expects type '*', but argument * has type '*'0(22@73"Format '%s' expects type 'char *', but argument 2 has type 'char (*)[20]'279138085#316#186#0(6@98"/Users/julien/projet/Xcode/Univ/L2/S3/Informatique/PeiP/Projet/client/google code Client/analyse.c279138084#26#0#26#0#56"format '*' expects type '*', but argument * has type '*'0(0#0#98"/Users/julien/projet/Xcode/Univ/L2/S3/Informatique/PeiP/Projet/client/google code Client/analyse.c4300882208#1822"    cd "/Users/julien/projet/Xcode/Univ/L2/S3/Informatique/PeiP/Projet/client/google code Client"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/julien/projet/Xcode/Univ/L2/S3/Informatique/PeiP/Projet/client/google code Client/build/client.build/Debug/client.build/client-generated-files.hmap" "-I/Users/julien/projet/Xcode/Univ/L2/S3/Informatique/PeiP/Projet/client/google code Client/build/client.build/Debug/client.build/client-own-target-headers.hmap" "-I/Users/julien/projet/Xcode/Univ/L2/S3/Informatique/PeiP/Projet/client/google code Client/build/client.build/Debug/client.build/client-all-target-headers.hmap" -iquote "/Users/julien/projet/Xcode/Univ/L2/S3/Informatique/PeiP/Projet/client/google code Client/build/client.build/Debug/client.build/client-project-headers.hmap" "-F/Users/julien/projet/Xcode/Univ/L2/S3/Informatique/PeiP/Projet/client/google code Client/build/Debug" "-I/Users/julien/projet/Xcode/Univ/L2/S3/Informatique/PeiP/Projet/client/google code Client/build/Debug/include" "-I/Users/julien/projet/Xcode/Univ/L2/S3/Informatique/PeiP/Projet/client/google code Client/build/client.build/Debug/client.build/DerivedSources/i386" "-I/Users/julien/projet/Xcode/Univ/L2/S3/Informatique/PeiP/Projet/client/google code Client/build/client.build/Debug/client.build/DerivedSources" -c "/Users/julien/projet/Xcode/Univ/L2/S3/Informatique/PeiP/Projet/client/google code Client/analyse.c" -o "/Users/julien/projet/Xcode/Univ/L2/S3/Informatique/PeiP/Projet/client/google code Client/build/client.build/Debug/client.build/Objects-normal/i386/analyse.o"0#
 
 CCompileC build/client.build/Debug/client.build/Objects-normal/i386/communication.o "/Users/julien/projet/Xcode/Univ/L2/S3/Informatique/PeiP/Projet/client/google code Client/communication.c" normal i386 c com.apple.compilers.gcc.4_2
 s279125652.134046
@@ -165,8 +215,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@108"Compile /Users/julien/projet/Xcode/Univ/L2/S3/Informatique/PeiP/Projet/client/google code Client/connexion.c279131334#279131334#0(508"/Users/julien/projet/Xcode/Univ/L2/S3/Informatique/PeiP/Projet/client/google code Client/connexion.c: In function 'inputConnexion':/Users/julien/projet/Xcode/Univ/L2/S3/Informatique/PeiP/Projet/client/google code Client/connexion.c:28: warning: format '%s' expects type 'char *', but argument 2 has type 'char (*)[20]'/Users/julien/projet/Xcode/Univ/L2/S3/Informatique/PeiP/Projet/client/google code Client/connexion.c:30: warning: format '%s' expects type 'char *', but argument 2 has type 'char (*)[20]'2(22@73"Format '%s' expects type 'char *', but argument 2 has type 'char (*)[20]'279131334#132#188#0(6@100"/Users/julien/projet/Xcode/Univ/L2/S3/Informatique/PeiP/Projet/client/google code Client/connexion.c279131334#28#0#28#0#56"format '*' expects type '*', but argument * has type '*'0(22@73"Format '%s' expects type 'char *', but argument 2 has type 'char (*)[20]'279131334#320#188#0(6@100"/Users/julien/projet/Xcode/Univ/L2/S3/Informatique/PeiP/Projet/client/google code Client/connexion.c279131334#30#0#30#0#56"format '*' expects type '*', but argument * has type '*'0(0#0#100"/Users/julien/projet/Xcode/Univ/L2/S3/Informatique/PeiP/Projet/client/google code Client/connexion.c4300882208#1826"    cd "/Users/julien/projet/Xcode/Univ/L2/S3/Informatique/PeiP/Projet/client/google code Client"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/julien/projet/Xcode/Univ/L2/S3/Informatique/PeiP/Projet/client/google code Client/build/client.build/Debug/client.build/client-generated-files.hmap" "-I/Users/julien/projet/Xcode/Univ/L2/S3/Informatique/PeiP/Projet/client/google code Client/build/client.build/Debug/client.build/client-own-target-headers.hmap" "-I/Users/julien/projet/Xcode/Univ/L2/S3/Informatique/PeiP/Projet/client/google code Client/build/client.build/Debug/client.build/client-all-target-headers.hmap" -iquote "/Users/julien/projet/Xcode/Univ/L2/S3/Informatique/PeiP/Projet/client/google code Client/build/client.build/Debug/client.build/client-project-headers.hmap" "-F/Users/julien/projet/Xcode/Univ/L2/S3/Informatique/PeiP/Projet/client/google code Client/build/Debug" "-I/Users/julien/projet/Xcode/Univ/L2/S3/Informatique/PeiP/Projet/client/google code Client/build/Debug/include" "-I/Users/julien/projet/Xcode/Univ/L2/S3/Informatique/PeiP/Projet/client/google code Client/build/client.build/Debug/client.build/DerivedSources/i386" "-I/Users/julien/projet/Xcode/Univ/L2/S3/Informatique/PeiP/Projet/client/google code Client/build/client.build/Debug/client.build/DerivedSources" -c "/Users/julien/projet/Xcode/Univ/L2/S3/Informatique/PeiP/Projet/client/google code Client/connexion.c" -o "/Users/julien/projet/Xcode/Univ/L2/S3/Informatique/PeiP/Projet/client/google code Client/build/client.build/Debug/client.build/Objects-normal/i386/connexion.o"0#
 
 CCompileC build/client.build/Debug/client.build/Objects-normal/i386/main.o "/Users/julien/projet/Xcode/Univ/L2/S3/Informatique/PeiP/Projet/client/google code Client/main.c" normal i386 c com.apple.compilers.gcc.4_2
-s279129203.131617
-e279129203.184999
+s279137954.790707
+e279137954.792394
 r1
 xCompileC
 xbuild/client.build/Debug/client.build/Objects-normal/i386/main.o
@@ -175,7 +225,7 @@ xnormal
 xi386
 xc
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@103"Compile /Users/julien/projet/Xcode/Univ/L2/S3/Informatique/PeiP/Projet/client/google code Client/main.c279129203#279129203#0(0"0(0#0#95"/Users/julien/projet/Xcode/Univ/L2/S3/Informatique/PeiP/Projet/client/google code Client/main.c4300882208#1816"    cd "/Users/julien/projet/Xcode/Univ/L2/S3/Informatique/PeiP/Projet/client/google code Client"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/julien/projet/Xcode/Univ/L2/S3/Informatique/PeiP/Projet/client/google code Client/build/client.build/Debug/client.build/client-generated-files.hmap" "-I/Users/julien/projet/Xcode/Univ/L2/S3/Informatique/PeiP/Projet/client/google code Client/build/client.build/Debug/client.build/client-own-target-headers.hmap" "-I/Users/julien/projet/Xcode/Univ/L2/S3/Informatique/PeiP/Projet/client/google code Client/build/client.build/Debug/client.build/client-all-target-headers.hmap" -iquote "/Users/julien/projet/Xcode/Univ/L2/S3/Informatique/PeiP/Projet/client/google code Client/build/client.build/Debug/client.build/client-project-headers.hmap" "-F/Users/julien/projet/Xcode/Univ/L2/S3/Informatique/PeiP/Projet/client/google code Client/build/Debug" "-I/Users/julien/projet/Xcode/Univ/L2/S3/Informatique/PeiP/Projet/client/google code Client/build/Debug/include" "-I/Users/julien/projet/Xcode/Univ/L2/S3/Informatique/PeiP/Projet/client/google code Client/build/client.build/Debug/client.build/DerivedSources/i386" "-I/Users/julien/projet/Xcode/Univ/L2/S3/Informatique/PeiP/Projet/client/google code Client/build/client.build/Debug/client.build/DerivedSources" -c "/Users/julien/projet/Xcode/Univ/L2/S3/Informatique/PeiP/Projet/client/google code Client/main.c" -o "/Users/julien/projet/Xcode/Univ/L2/S3/Informatique/PeiP/Projet/client/google code Client/build/client.build/Debug/client.build/Objects-normal/i386/main.o"0#
+lSLF07#2@103"Compile /Users/julien/projet/Xcode/Univ/L2/S3/Informatique/PeiP/Projet/client/google code Client/main.c279137954#279137954#0(0"0(0#0#95"/Users/julien/projet/Xcode/Univ/L2/S3/Informatique/PeiP/Projet/client/google code Client/main.c4300882208#1816"    cd "/Users/julien/projet/Xcode/Univ/L2/S3/Informatique/PeiP/Projet/client/google code Client"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/julien/projet/Xcode/Univ/L2/S3/Informatique/PeiP/Projet/client/google code Client/build/client.build/Debug/client.build/client-generated-files.hmap" "-I/Users/julien/projet/Xcode/Univ/L2/S3/Informatique/PeiP/Projet/client/google code Client/build/client.build/Debug/client.build/client-own-target-headers.hmap" "-I/Users/julien/projet/Xcode/Univ/L2/S3/Informatique/PeiP/Projet/client/google code Client/build/client.build/Debug/client.build/client-all-target-headers.hmap" -iquote "/Users/julien/projet/Xcode/Univ/L2/S3/Informatique/PeiP/Projet/client/google code Client/build/client.build/Debug/client.build/client-project-headers.hmap" "-F/Users/julien/projet/Xcode/Univ/L2/S3/Informatique/PeiP/Projet/client/google code Client/build/Debug" "-I/Users/julien/projet/Xcode/Univ/L2/S3/Informatique/PeiP/Projet/client/google code Client/build/Debug/include" "-I/Users/julien/projet/Xcode/Univ/L2/S3/Informatique/PeiP/Projet/client/google code Client/build/client.build/Debug/client.build/DerivedSources/i386" "-I/Users/julien/projet/Xcode/Univ/L2/S3/Informatique/PeiP/Projet/client/google code Client/build/client.build/Debug/client.build/DerivedSources" -c "/Users/julien/projet/Xcode/Univ/L2/S3/Informatique/PeiP/Projet/client/google code Client/main.c" -o "/Users/julien/projet/Xcode/Univ/L2/S3/Informatique/PeiP/Projet/client/google code Client/build/client.build/Debug/client.build/Objects-normal/i386/main.o"0#
 
 CCompileC build/client.build/Debug/client.build/Objects-normal/i386/main.o /Users/julien/projet/Xcode/Univ/L2/S3/Informatique/PeiP/Projet/client/main.c normal i386 c com.apple.compilers.gcc.4_2
 s278528663.649475
@@ -193,18 +243,34 @@ lSLF07#2@84"Compile /Users/julien/projet/Xcode/Univ/L2/S3/Informatique/PeiP/Proj
 CCompileC build/client.build/Debug/client.build/Objects-normal/i386/structure.o "/Users/julien/projet/Xcode/Univ/L2/S3/Informatique/PeiP/Projet/client/google code Client/structure.c" normal i386 c com.apple.compilers.gcc.4_2
 r0
 
+CCompileC build/client.build/Debug/client.build/Objects-normal/i386/structures.o "/Users/julien/projet/Xcode/Univ/L2/S3/Informatique/PeiP/Projet/client/google code Client/structures.c" normal i386 c com.apple.compilers.gcc.4_2
+s279138027.171778
+e279138027.219312
+r1
+xCompileC
+xbuild/client.build/Debug/client.build/Objects-normal/i386/structures.o
+x/Users/julien/projet/Xcode/Univ/L2/S3/Informatique/PeiP/Projet/client/google code Client/structures.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+o/Users/julien/projet/Xcode/Univ/L2/S3/Informatique/PeiP/Projet/client/google code Client/structures.c: In function 'newId':
+o/Users/julien/projet/Xcode/Univ/L2/S3/Informatique/PeiP/Projet/client/google code Client/structures.c:16: warning: implicit declaration of function 'malloc'
+o/Users/julien/projet/Xcode/Univ/L2/S3/Informatique/PeiP/Projet/client/google code Client/structures.c:16: warning: incompatible implicit declaration of built-in function 'malloc'
+lSLF07#2@109"Compile /Users/julien/projet/Xcode/Univ/L2/S3/Informatique/PeiP/Projet/client/google code Client/structures.c279138027#279138027#0(460"/Users/julien/projet/Xcode/Univ/L2/S3/Informatique/PeiP/Projet/client/google code Client/structures.c: In function 'newId':/Users/julien/projet/Xcode/Univ/L2/S3/Informatique/PeiP/Projet/client/google code Client/structures.c:16: warning: implicit declaration of function 'malloc'/Users/julien/projet/Xcode/Univ/L2/S3/Informatique/PeiP/Projet/client/google code Client/structures.c:16: warning: incompatible implicit declaration of built-in function 'malloc'2(22@41"Implicit declaration of function 'malloc'279138027#124#157#0(6@101"/Users/julien/projet/Xcode/Univ/L2/S3/Informatique/PeiP/Projet/client/google code Client/structures.c279137944#16#0#16#0#36"implicit declaration of function '*'0(22@63"Incompatible implicit declaration of built-in function 'malloc'279138027#281#179#0(6@101"/Users/julien/projet/Xcode/Univ/L2/S3/Informatique/PeiP/Projet/client/google code Client/structures.c279137944#16#0#16#0#0"0(0#0#101"/Users/julien/projet/Xcode/Univ/L2/S3/Informatique/PeiP/Projet/client/google code Client/structures.c4300882208#1828"    cd "/Users/julien/projet/Xcode/Univ/L2/S3/Informatique/PeiP/Projet/client/google code Client"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/julien/projet/Xcode/Univ/L2/S3/Informatique/PeiP/Projet/client/google code Client/build/client.build/Debug/client.build/client-generated-files.hmap" "-I/Users/julien/projet/Xcode/Univ/L2/S3/Informatique/PeiP/Projet/client/google code Client/build/client.build/Debug/client.build/client-own-target-headers.hmap" "-I/Users/julien/projet/Xcode/Univ/L2/S3/Informatique/PeiP/Projet/client/google code Client/build/client.build/Debug/client.build/client-all-target-headers.hmap" -iquote "/Users/julien/projet/Xcode/Univ/L2/S3/Informatique/PeiP/Projet/client/google code Client/build/client.build/Debug/client.build/client-project-headers.hmap" "-F/Users/julien/projet/Xcode/Univ/L2/S3/Informatique/PeiP/Projet/client/google code Client/build/Debug" "-I/Users/julien/projet/Xcode/Univ/L2/S3/Informatique/PeiP/Projet/client/google code Client/build/Debug/include" "-I/Users/julien/projet/Xcode/Univ/L2/S3/Informatique/PeiP/Projet/client/google code Client/build/client.build/Debug/client.build/DerivedSources/i386" "-I/Users/julien/projet/Xcode/Univ/L2/S3/Informatique/PeiP/Projet/client/google code Client/build/client.build/Debug/client.build/DerivedSources" -c "/Users/julien/projet/Xcode/Univ/L2/S3/Informatique/PeiP/Projet/client/google code Client/structures.c" -o "/Users/julien/projet/Xcode/Univ/L2/S3/Informatique/PeiP/Projet/client/google code Client/build/client.build/Debug/client.build/Objects-normal/i386/structures.o"0#
+
 CCompileC build/client.build/Debug/client.build/Objects-normal/x86_64/main.o /Users/julien/projet/Xcode/Univ/L2/S3/Informatique/PeiP/Projet/client/main.c normal x86_64 c com.apple.compilers.gcc.4_2
 r0
 
 CLd "/Users/julien/projet/Xcode/Univ/L2/S3/Informatique/PeiP/Projet/client/google code Client/build/Debug/client" normal i386
-s279131334.889904
-e279131334.904150
+s279138085.111032
+e279138085.539710
 r1
 xLd
 x/Users/julien/projet/Xcode/Univ/L2/S3/Informatique/PeiP/Projet/client/google code Client/build/Debug/client
 xnormal
 xi386
-lSLF07#2@112"Link /Users/julien/projet/Xcode/Univ/L2/S3/Informatique/PeiP/Projet/client/google code Client/build/Debug/client279131334#279131334#0(0"0(0#0#0"4300882208#750"    cd "/Users/julien/projet/Xcode/Univ/L2/S3/Informatique/PeiP/Projet/client/google code Client"    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/SDKs/MacOSX10.5.sdk "-L/Users/julien/projet/Xcode/Univ/L2/S3/Informatique/PeiP/Projet/client/google code Client/build/Debug" "-F/Users/julien/projet/Xcode/Univ/L2/S3/Informatique/PeiP/Projet/client/google code Client/build/Debug" -filelist "/Users/julien/projet/Xcode/Univ/L2/S3/Informatique/PeiP/Projet/client/google code Client/build/client.build/Debug/client.build/Objects-normal/i386/client.LinkFileList" -mmacosx-version-min=10.5 -o "/Users/julien/projet/Xcode/Univ/L2/S3/Informatique/PeiP/Projet/client/google code Client/build/Debug/client"0#
+lSLF07#2@112"Link /Users/julien/projet/Xcode/Univ/L2/S3/Informatique/PeiP/Projet/client/google code Client/build/Debug/client279138085#279138085#0(0"0(0#0#0"4300882208#750"    cd "/Users/julien/projet/Xcode/Univ/L2/S3/Informatique/PeiP/Projet/client/google code Client"    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/SDKs/MacOSX10.5.sdk "-L/Users/julien/projet/Xcode/Univ/L2/S3/Informatique/PeiP/Projet/client/google code Client/build/Debug" "-F/Users/julien/projet/Xcode/Univ/L2/S3/Informatique/PeiP/Projet/client/google code Client/build/Debug" -filelist "/Users/julien/projet/Xcode/Univ/L2/S3/Informatique/PeiP/Projet/client/google code Client/build/client.build/Debug/client.build/Objects-normal/i386/client.LinkFileList" -mmacosx-version-min=10.5 -o "/Users/julien/projet/Xcode/Univ/L2/S3/Informatique/PeiP/Projet/client/google code Client/build/Debug/client"0#
 
 CLd /Users/julien/projet/Xcode/Univ/L2/S3/Informatique/PeiP/Projet/client/build/Debug/client normal i386
 s278528664.521556

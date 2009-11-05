@@ -14,7 +14,7 @@
 #include <string.h>
 
 
-//inputConnexion :
+
 
 void inputConnexion(identifiants *id){
 	
@@ -30,4 +30,3 @@ void inputConnexion(identifiants *id){
 	
 }
 
-//
