@@ -7,13 +7,14 @@
  *
  */
 
+
+//Définition des structures
+
 struct identifiant 
 {
 	char* login;
 	char* mdp;
 };
-
-typedef struct identifiant identifiants;
 
 struct transmissionIn 
 {
@@ -21,4 +22,12 @@ struct transmissionIn
 	int type;
 };
 
+//Nommage :
+
+typedef struct identifiant identifiants;
 typedef struct transmissionIn transmission;
+
+//Fonctions :
+
+identifiants* newId();
+
