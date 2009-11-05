@@ -8,16 +8,11 @@
  */
 
 #include <string.h>
+#include "structures.h"
 
-
-//inputConnexion :
 
 identifiants* newId();
 
 void inputConnexion(identifiants *id);
 
-//inputChaine :
 
-
-
-//Analyse : 

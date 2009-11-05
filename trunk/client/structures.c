@@ -9,12 +9,12 @@
 
 #include "structures.h"
 
-// Structures :
+
 
 identifiants* newId()
 {
 	identifiants* id = (identifiants*)malloc(sizeof(identifiants));
-	id->login = "julien";
-	id->mdp = "jtlila";
+	id->login ;
+	id->mdp ;
 	return id;
 }
