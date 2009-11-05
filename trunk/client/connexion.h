@@ -7,7 +7,16 @@
  *
  */
 
-deftype struct identifiant{
-	char[10];
-	int;
-}identifiants;
+#include <string.h>
+
+struct identifiant 
+{
+	char* login;
+	char* mdp;
+};
+
+typedef struct identifiant identifiants;
+
+identifiants* newId();
+
+void inputConnexion(identifiants *id);
