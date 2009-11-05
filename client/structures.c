@@ -8,13 +8,11 @@
  */
 
 #include "structures.h"
-
+#include <stdlib.h>
 
 
 identifiants* newId()
 {
 	identifiants* id = (identifiants*)malloc(sizeof(identifiants));
-	id->login ;
-	id->mdp ;
 	return id;
 }

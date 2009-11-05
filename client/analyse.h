@@ -10,8 +10,7 @@
 #include <string.h>
 #include "structures.h"
 
-
-identifiants* newId();
+//fonctions :
 
 void inputConnexion(identifiants *id);
 
