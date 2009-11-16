@@ -7,11 +7,10 @@
  *
  */
 
-#include <string.h>
-#include "structures.h"
+#include "structure.h"
 
-//fonctions :
-
-void inputConnexion(identifiants *id);
+identifiant inputConnexion();
+char * inputChaine();
+transmission * analyse(char* entree);
 
 

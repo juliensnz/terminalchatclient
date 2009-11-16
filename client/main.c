@@ -1,29 +1,13 @@
 
-#include <stdio.h>
+#include <string.h>
+#include "structure.h"
+//#include "analyse.h"
 
-#include "analyse.h"
 
 
-int main (int argc, const char * argv[]) {
-	
-	//Connexion : 
-	
-	/* identifiants* id;
-		id = newId();
-		inputConnexion(id); */
-	
-	//discution :
-	int bool = 1;
-	char * chaine;
-	
-	transmission* message;
-	message = newMessage();
-	
-	while(bool)
-	{
-		inputChaine(chaine);
-		analyse(chaine,message);
-	}
-	
-    return 0;
+int main()
+{
+	identifiant * id = newId();
+	transmission * tr = newTransmission();
+	return 0;
 }
